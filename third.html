@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third exercise</title>
+
+    <link rel="stylesheet" href="dist/css/third.css">
+</head>
+<body>
+    <div class="headerBox">
+        <h1>Classy Booking Form</h1>
+    </div>
+    <div class="mainContainer">
+        <div class="formBox">
+            <form>
+                <div class="inputLine">
+                    <label for="fName">Full Name*</label>
+                    <input type="text" name="fName">
+                </div>
+
+                <div class="inputLine">
+                    <label for="emailID">Email ID*</label>
+                    <input type="email" name="emailID">
+                </div>
+
+                <div class="inputLine">
+                    <label for="pNumber">Phone Number*</label>
+                    <input type="text" name="pNumber">
+                </div>
+
+                <div class="inputLine date">
+                    <label for="dTime">Departure Date/Time*</label>
+                    <div class="dateInput">
+                        <div class="date">
+                            <input type="date" name="dTime">
+                        </div>
+                        <div class="hours">
+                            <select name="hours" id="hours" required>
+                                <option value="" disabled selected hidden>Hr</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                            </select>
+        
+                            <select name="minutes" id="minutes" required>
+                                <option value="" disabled selected hidden>Min</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                            </select>
+        
+                            <select name="amPm" id="amPm">
+                                <option value="am">AM</option>
+                                <option value="pm">PM</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inputLine date">
+                    <label for="rTime">Return Date/Time*</label>
+                    <div class="dateInput">
+                        <div class="date">
+                            <input type="date" name="rTime">
+                        </div>
+                        <div class="hours">
+                            <select name="hours2" id="hours2" required>
+                                <option value="" disabled selected hidden>Hr</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                            </select>
+        
+                            <select name="minutes2" id="minutes2"  required>
+                                <option value="" disabled selected hidden>Min</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                            </select>
+        
+                            <select name="amPm2" id="amPm2">
+                                <option value="am2">AM</option>
+                                <option value="pm2">PM</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inputLine">
+                    <label for="pAddress">Pickup Address*</label>
+                    <textarea name="pAddress" cols="30" rows="5"></textarea>
+                </div>
+
+                <div class="inputLine">
+                    <label for="dAddress">Destination Address*</label>
+                    <textarea name="dAddress" cols="30" rows="5"></textarea>
+                </div>
+
+                <div class="inputLine">
+                    <label for="jType">Journey Type*</label>
+                    <select name="jType" id="jType">
+                        <option value="vacation">Vacation</option>
+                        <option value="business">Business</option>
+                    </select>
+                </div>
+
+                <div class="inputLine">
+                    <label for="passangers">Number of passangers*</label>
+                    <select name="passangers" id="passangers">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </div>
+
+                <div class="inputLine">
+                    <label for="aMessage">Additional Message:</label>
+                    <textarea name="aMessage" cols="30" rows="5"></textarea>
+                </div>
+                <div class="submitBtn"><input type="submit" value="Submit"></div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
