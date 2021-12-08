@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/bg.jpg);
+    color: white;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 50px 0;
+    font-weight: 400;
+}
+
+input, textarea, select{
+    padding: 5px;
+    border: none;
+}
+
+label{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.mainContainer{
+    margin: 0 auto;
+    padding: 40px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.inputLine{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.inputLine .right input,
+.inputLine .right textarea{
+    width: 100%;
+}
+
+.right{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.date select{
+    margin-left: 10px;
+}
+
+.submitBtn{
+    text-align: right;
+}
+
+.submitBtn input{
+    padding: 10px 50px;
+    background-color: #0b193c;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+/* Not necessary */
+.jTypeWide select{
+    width: 100px;
+}
